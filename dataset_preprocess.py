@@ -20,7 +20,7 @@ root_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, root_path)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-m", "--model", default="config", type=str)
+parser.add_argument("-m", "--model", default="Lapred_original", type=str)
 parser.add_argument("--trial", '-t', default=None, type=int)
 
 args = parser.parse_args()
