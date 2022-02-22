@@ -1,4 +1,4 @@
-# LaPred
+# LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents
 
 ## Dataset Preprocess
 
