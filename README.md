@@ -8,8 +8,8 @@ python dataset_preprocess.py
 
 ## Model Training - nuScenes
 
-python train.py -m Lapred_original
+python run.py -m Lapred_original
 
 ## Model Evaluation - nuScenes
 
-python train.py -m Lapred_original -e
+python run.py -m Lapred_original -e
