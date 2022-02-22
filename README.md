@@ -1,9 +1,13 @@
 # LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents
 
-## Dataset Preprocess
+## Dataset Preprocessing
 
 python dataset_preprocess.py
 
-## Train Example - nuScenes
+## Model Training - nuScenes
 
 python train.py -m Lapred_original
+
+## Model Evaluation - nuScenes
+
+python train.py -m Lapred_original -e
