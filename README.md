@@ -4,7 +4,7 @@ This repository contains the code for [LaPred: Lane-Aware Prediction of Multi-Mo
 
 ## Dataset Preprocessing
 ```sh
-python dataset_preprocess.py -p dataset-path
+python dataset_preprocess.py -p [dataset-path]
 ```
 ## Model Training - nuScenes
 ```sh
