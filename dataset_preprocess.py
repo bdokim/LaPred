@@ -21,6 +21,7 @@ sys.path.insert(0, root_path)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-m", "--model", default="Lapred_original", type=str)
+parser.add_argument("-p", "--path", default="./nuscenes/dataset", type=str)
 parser.add_argument("--trial", '-t', default=None, type=int)
 
 args = parser.parse_args()
