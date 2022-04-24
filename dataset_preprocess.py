@@ -30,6 +30,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='0'
 model = import_module('Lapred_original')
 config, *_ = model.get_model(args)
 config["preprocess"] = False
+config["DATAROOT"] = args.path
 
 os.makedirs(os.path.dirname(config['preprocess_train']),exist_ok=True)
 
