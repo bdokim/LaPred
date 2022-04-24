@@ -40,8 +40,7 @@ config["workers"] = 0
 config["val_workers"] = config["workers"]
 
 # Dataset
-# config["DATAROOT"] = './nuscenes/dataset'
-config["DATAROOT"] = '/hdd4/bdkim/dataset/nuscenes/dataset'
+config["DATAROOT"] = './nuscenes/dataset'
 # Preprocess
 config["preprocess"] = True # whether use preprocess or not
 config["preprocess_train"] = os.path.join(root_path, "preprocess", "train_lapred_orig.p")
