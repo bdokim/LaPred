@@ -1,0 +1,4 @@
+  User-agent: *
+ Allow: /
+
+ Sitemap: https://https://bdokim.github.io/LaPred/sitemap.xml
