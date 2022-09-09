@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            LaPred
+longtitle:        Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents
+author:           ByeoungDo Kim
+email:            bdkim@spa.hanyang.ac.kr
 description: >
-  Build Jekyll site with the GitBook style.
+  the code for LaPred: Lane-Aware Prediction of Multi-Modal Future Trajectories of Dynamic Agents
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://bdokim.github.io'
+baseurl:          '/LaPred'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
